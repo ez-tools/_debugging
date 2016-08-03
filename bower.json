@@ -1,0 +1,20 @@
+{
+  "name": "ez-async",
+  "description": "Yet another async library using generators",
+  "main": "index.js",
+  "authors": [
+    "Kevin Jahns <kevin.jahns@rwth-aachen.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "async"
+  ],
+  "homepage": "https://github.com/ez-tools/ez-async#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

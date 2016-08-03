@@ -1,0 +1,26 @@
+{
+  "name": "ez-async",
+  "version": "1.0.0",
+  "description": "Yet another async library using generators",
+  "main": "./dist/ez-async.cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ez-build-lib build src/ez-async.js",
+    "build:watch": "ez-build-lib build:watch ./dist/ez-async.cjs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ez-tools/ez-async.git"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "Kevin Jahns <kevin.jahns@rwth-aachen.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ez-tools/ez-async/issues"
+  },
+  "homepage": "https://github.com/ez-tools/ez-async#readme",
+  "jsnext:main": "src/ez-async.js",
+  "browser": "./dist/ez-async.umd.js"
+}
