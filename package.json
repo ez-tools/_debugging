@@ -1,6 +1,6 @@
 {
   "name": "ez-async",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Yet another async library using generators",
   "main": "./dist/ez-async.cjs.js",
   "scripts": {
