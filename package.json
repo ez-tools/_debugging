@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ez-build-lib build src/ez-async.js",
     "build:watch": "ez-build-lib build:watch ./dist/ez-async.cjs.js",
-    "publish": "ez-build-lib publish . patch 'somemessage'"
+    "publish": "npm run build && ez-build-lib publish . patch 'somemessage'"
   },
   "repository": {
     "type": "git",
