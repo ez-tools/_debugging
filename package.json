@@ -1,6 +1,6 @@
 {
   "name": "ez-async",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Yet another async library using generatorsi",
   "main": "./dist/ez-async.cjs.js",
   "scripts": {
@@ -24,5 +24,6 @@
   },
   "homepage": "https://github.com/ez-tools/ez-async#readme",
   "jsnext:main": "src/ez-async.js",
-  "browser": "./dist/ez-async.umd.js"
+  "browser": "./dist/ez-async.umd.js",
+  "private": true
 }
