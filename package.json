@@ -4,7 +4,7 @@
   "description": "Yet another async library using generatorsi",
   "main": "./dist/ez-async.cjs.js",
   "files": [
-    "ez-async.js"
+    "ez-async.*"
   ],
   "scripts": {
     "lint": "standard",
