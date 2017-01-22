@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "standard",
     "dist": "cp src/ez-async.js .",
-    "prepublish": "npm run dist && git checkout --detach && git add ez-async.js && git commit -am 'add dist files'",
+    "prepublish": "npm run dist && git checkout --detach && git add -f ez-async.js && git commit -am 'add dist files'",
     "_postpublish": "git checkout master"
   },
   "repository": {
