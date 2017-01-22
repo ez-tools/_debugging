@@ -9,8 +9,8 @@
   "scripts": {
     "lint": "standard",
     "dist": "cp src/ez-async.js .",
-    "prepublish": "npm run dist",
-    "postpublish": "node ../ez-publish.js -x"
+    "_prepublish": "npm run dist",
+    "_postpublish": "node ../ez-publish.js -x"
   },
   "repository": {
     "type": "git",
