@@ -1,6 +1,6 @@
 {
   "name": "ez-async",
-  "version": "7.0.13",
+  "version": "7.1.0",
   "description": "Yet another async library using generatorsi",
   "main": "./dist/ez-async.cjs.js",
   "files": [
