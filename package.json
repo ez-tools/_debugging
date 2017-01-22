@@ -3,10 +3,11 @@
   "version": "7.0.6",
   "description": "Yet another async library using generatorsi",
   "main": "./dist/ez-async.cjs.js",
+  "files": ["ez-async.js"],
   "scripts": {
     "lint": "standard",
-    "build": "ez-build-lib build src/ez-async.js",
-    "build:watch": "ez-build-lib build:watch ./dist/ez-async.cjs.js",
+    "dist": "cp src/ez-async.js .",
+    "prepublish": "npm run dist",
     "postpublish": "node ../ez-publish.js -x"
   },
   "repository": {
