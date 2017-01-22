@@ -10,7 +10,7 @@
     "lint": "standard",
     "dist": "cp src/ez-async.js .",
     "postversion": "npm run dist",
-    "postpublish": "node ../ez-publish.js -x"
+    "postpublish": "node ../tag-dist-files.js -f"
   },
   "repository": {
     "type": "git",
