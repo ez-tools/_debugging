@@ -1,9 +1,11 @@
 {
   "name": "ez-async",
-  "version": "7.0.6",
+  "version": "7.0.7",
   "description": "Yet another async library using generatorsi",
   "main": "./dist/ez-async.cjs.js",
-  "files": ["ez-async.js"],
+  "files": [
+    "ez-async.js"
+  ],
   "scripts": {
     "lint": "standard",
     "dist": "cp src/ez-async.js .",
