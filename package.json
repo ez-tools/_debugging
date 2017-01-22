@@ -5,7 +5,6 @@
   "main": "./dist/ez-async.cjs.js",
   "scripts": {
     "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ez-build-lib build src/ez-async.js",
     "build:watch": "ez-build-lib build:watch ./dist/ez-async.cjs.js",
     "postpublish": "node ../ez-publish.js -x"
